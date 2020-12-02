@@ -10,7 +10,7 @@ gen ln_wage = ln(wage)
 // histogram of wages between black - white workers
 	   twoway ///
 	   histogram ln_wage if race==1, width(0.06) color(538r%40) lwidth(vthin) || /// adding colour and adjusting histogram bar width & colour opacity
-       histogram ln_wage if race==2, width(0.06) color(538b%40) lwidth(vthin) /// adding colour and adjusting opacity
+           histogram ln_wage if race==2, width(0.06) color(538b%40) lwidth(vthin) /// adding colour and adjusting opacity
 	   plotregion(margin(zero)) /// removing plot margins
 	   ylab(0(0.2)1, glstyle(dot) tposition(inside) labsize(vsmall)) /// changing gridlines to dots, 
 	   /// adding tick position inside graph and making labels small
