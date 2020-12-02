@@ -1,3 +1,5 @@
+// using stata 16.1
+
 ssc install g538schemes, // then go to preferences - > change scheme to 538w 
 // (this is a really nice one and is based on the data work @ fivethirtyeight.com)
 
