@@ -14,7 +14,7 @@ gen ln_wage = ln(wage)
 	   plotregion(margin(zero)) /// removing plot margins
 	   ylab(0(0.2)1, glstyle(dot) tposition(inside) labsize(vsmall)) /// changing gridlines to dots, 
 	   /// adding tick position inside graph and making labels small
-	   xline(1.889772 , lcolor(black%100)) ///
+	  /// xline(1.889772 , lcolor(black%100)) /// do this with a local whenever possible
 	   xlab(0(1)4, nogrid labsize(vsmall)) /// removing grid lines for x axis, making label small - change label colour with labcolor(black)
 	   yscale(range(0 1) lstyle(solid) lcolor(538axis) lwidth(thin)) /// axis range, colours, and line width
 	   xscale(range(0 4) lstyle(solid) lcolor(538axis) lwidth(thin)) /// axis range, colours, and line width
